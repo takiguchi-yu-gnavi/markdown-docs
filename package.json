@@ -7,7 +7,11 @@
     "format": "prettier --write '**/*.md'",
     "format:check": "prettier --check '**/*.md'",
     "lint": "markdownlint '**/*.md'",
-    "lint:fix": "markdownlint --fix '**/*.md'"
+    "lint:fix": "markdownlint --fix '**/*.md'",
+    "postinstall": "simple-git-hooks"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npm run lint"
   },
   "keywords": [
     "markdown",
@@ -17,8 +21,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "markdownlint-cli": "^0.37.0",
-    "prettier": "^3.0.0",
-    "prettier-plugin-organize-imports": "^4.1.0"
+    "markdownlint-cli": "^0.45.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "simple-git-hooks": "^2.13.0"
   }
 }
