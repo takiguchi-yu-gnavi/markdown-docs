@@ -21,7 +21,11 @@
   },
   "markdown.preview.breaks": true,
   "markdown.preview.typographer": true,
+  "markdown.marp.themes": [
+    "./themes/rose-pine-moon.css"
+  ],
   "cSpell.words": [
+    "marp",
     "textlint"
   ]
 }
