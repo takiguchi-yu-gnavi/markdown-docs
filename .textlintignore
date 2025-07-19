@@ -1,6 +1,8 @@
 # Ignore node_modules
+
 node_modules/
 
 # Ignore marp files (presentations have different writing requirements)
+
 docs/marp/marp-example.md
 docs/marp/README.md
