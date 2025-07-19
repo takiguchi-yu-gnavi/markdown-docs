@@ -1,0 +1,24 @@
+{
+  "name": "markdown-docs",
+  "version": "1.0.0",
+  "description": "Markdown documentation with Prettier formatting and linting",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '**/*.md'",
+    "format:check": "prettier --check '**/*.md'",
+    "lint": "markdownlint '**/*.md'",
+    "lint:fix": "markdownlint --fix '**/*.md'"
+  },
+  "keywords": [
+    "markdown",
+    "documentation",
+    "prettier"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "markdownlint-cli": "^0.37.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-organize-imports": "^4.1.0"
+  }
+}

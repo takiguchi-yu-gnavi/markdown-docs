@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "bierner.markdown-mermaid",
+    "davidanson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "fcrespo82.markdown-table-formatter",
+    "marp-team.marp-vscode",
+    "ms-vscode.vscode-json",
+    "shd101wyy.markdown-preview-enhanced",
+    "yzhang.markdown-all-in-one",
+  ]
+}
