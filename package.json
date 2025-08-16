@@ -4,10 +4,10 @@
   "description": "Markdown documentation with Prettier formatting and linting",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write '**/*.md'",
-    "format:check": "prettier --check '**/*.md'",
-    "lint": "markdownlint '**/*.md' && textlint '**/*.md'",
-    "lint:fix": "markdownlint --fix '**/*.md' && textlint --fix '**/*.md'",
+    "format": "prettier --write 'docs/**/*.md'",
+    "format:check": "prettier --check 'docs/**/*.md'",
+    "lint": "markdownlint 'docs/**/*.md' && textlint 'docs/**/*.md'",
+    "lint:fix": "markdownlint --fix 'docs/**/*.md' && textlint --fix 'docs/**/*.md'",
     "postinstall": "simple-git-hooks"
   },
   "simple-git-hooks": {

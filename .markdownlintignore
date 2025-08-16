@@ -4,5 +4,4 @@ node_modules/
 
 # Ignore marp files (presentations have different linting requirements)
 
-docs/marp/marp-example.md
-docs/marp/README.md
+docs/marp/

@@ -1,26 +1,37 @@
 ---
 marp: true
-theme: rose-pine-moon
+theme: gaia
+paginate: false
+size: 16:9
+header: ヘッダー
+footer: フッター
 ---
 
-# marpを使ったスライド作成
+<style>
+section::before {
+  display: block;
+  content: url('https://marp.app/assets/marp.svg');
+  width: 150px;
+  height: auto;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+</style>
 
-## Typography
-
-### Typography
-
-#### Typography
-
-Typography
+![bg opacity:80% blur:10px grayscale:80%](./images/flower-4563208_1280.jpg)
 
 ---
 
-# 2ページ目
+## はじめに
 
-## Typography
+![bg right 50%](./images/flower-4563208_1280.jpg)
 
-### Typography
+---
 
-#### Typography
+<!--
+_header: ""
+_footer: ""
+-->
 
-Typography
+## まとめ
